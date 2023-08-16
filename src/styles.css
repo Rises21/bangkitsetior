@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    box-sizing: border-box;
+}
+
+/* utilities style  @ */
+.linearG{
+background: linear-gradient(#838792, #ffffff, #8B9EAC, #5A87AC, #85C6F9);
+border-radius: 25px;
+}
+.smCaps{
+    font-variant: small-caps;
+    text-shadow: -1px 1px 2px #000;
+}
+/* utilities style  & */
+
+
+/* hero section @ */
+
+#home{
+    background-color: #ffffff;
+        opacity: 1;
+        background-image: linear-gradient(180deg, #5A87AC,  #85C6F9, #5A87AC), repeating-radial-gradient(circle at center center, #5A87AC, #fff, 100px, transparent 100px, transparent 200px);
+        background-blend-mode: hard-light;
+}
+
+#home div > h2, #home div>a{
+    text-shadow: -2px 0 3px black;
+}
+
+.btnScale:hover{
+   transform: scale(1.02);
+   cursor: pointer;
+   transition: ease-in-out .05s;
+   opacity: .9;
+}
+.btnScale:active{
+    background: radial-gradient( #838792, #ffffff, #8B9EAC, #5A87AC, #85C6F9);
+    transform: scale(.98);
+}
+
+#profileImg{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+#profileImg figcaption{
+    position: absolute;
+    bottom: 8px;
+    margin: 0 12px;
+    color: #ffffff;
+    text-align: center;
+    
+
+}
+#profileImg:hover figcaption{
+    display: none;
+}
+#profileImg img {
+    transition: all linear .4s;
+}
+#profileImg img:first-child{
+    margin-top: 50%;
+}
+#profileImg img:last-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+#profileImg:hover img:last-child{
+    border-radius: 25px;
+    opacity: 1;
+}
+#profileImg:hover img:first-child{
+    opacity: 0;
+}
+
+/* hero section & */
+
+/* about section @ */
+#about{
+ 
+}
+/* about section @ */
+
