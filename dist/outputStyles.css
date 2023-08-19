@@ -741,8 +741,8 @@ video {
   padding-left: 0.75rem;
 }
 
-.pr-\[15\%\] {
-  padding-right: 15%;
+.pr-\[100px\] {
+  padding-right: 100px;
 }
 
 .pt-16 {
@@ -751,38 +751,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pr-\[25\%\] {
-  padding-right: 25%;
-}
-
-.pr-\[25px\] {
-  padding-right: 25px;
-}
-
-.pr-\[250px\] {
-  padding-right: 250px;
-}
-
-.pr-\[220px\] {
-  padding-right: 220px;
-}
-
-.pr-\[200px\] {
-  padding-right: 200px;
-}
-
-.pr-\[20px\] {
-  padding-right: 20px;
-}
-
-.pr-\[150px\] {
-  padding-right: 150px;
-}
-
-.pr-\[100px\] {
-  padding-right: 100px;
 }
 
 .text-2xl {
@@ -907,10 +875,9 @@ body{
 #logo::before {
   content: "";
   display: inline-block;
-  z-index: 222;
   position: absolute;
   width: 52px;
-  height: 6px;
+  height: 3px;
   top: 38%;
   left: 59%;
   background-color: #5A87AC;
@@ -922,7 +889,7 @@ body{
   z-index: 222;
   position: absolute;
   width: 88px;
-  height: 6px;
+  height: 3px;
   top: 38%;
   left: 13%;
   background-color: #5A87AC;
