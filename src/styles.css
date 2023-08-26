@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:ital,wght@0,200;0,500;0,600;1,200;1,500;1,600&family=Sedgwick+Ave+Display&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,14 @@
 
 body{
     box-sizing: border-box;
+}
+
+.hamburgerToggler{
+    background-color: #000;
+}
+.navMenu{
+    background-color: #fafafa;
+    display: block;
 }
 
 /* utilities style  @ */
@@ -27,19 +37,18 @@ border-radius: 25px;
     position: absolute;
     width: 52px;
     height: 3px;
-    top: 38%;
-    left: 59%;
+    top: 32%;
+    left: 64%;
     background-color: #5A87AC;
 }
 
 #logo::after{
     content: "";
     display: inline-block;
-    z-index: 222;
     position: absolute;
     width: 88px;
     height: 3px;
-    top: 38%;
+    top: 32%;
     left: 13%;
     background-color: #5A87AC;
 }
