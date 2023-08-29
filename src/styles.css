@@ -8,6 +8,7 @@
 body{
     box-sizing: border-box;
     background-color: rgba(0, 247, 255, 0.25);
+    scroll-behavior: smooth;
 }
 
 
@@ -49,7 +50,7 @@ border-radius: 25px;
     content: "";
     display: inline-block;
     position: absolute;
-    width: 84px;
+    width: 80px;
     height: 3px;
     top: 32%;
     left: 13%;
@@ -72,9 +73,11 @@ border-radius: 25px;
 }
 
 .navMenu {
-    display: block;
-    text-align: center;
+    @apply  translate-y-[111px] opacity-100;
+    /* border-radius: 0 0 25px 25px; */
 }
+
+
 
 .hamburgerLine{
     display: block;
@@ -154,7 +157,7 @@ border-radius: 25px;
 
 /* about section @ */
 #about {
- background: linear-gradient(0deg, rgba(0, 213, 255, 0.3) 60%, #fafafa , rgba(0, 247, 255, 0.25));
+ background: linear-gradient(0deg, rgba(0, 213, 255, 0.3) 60%, #fafafa , rgba(54, 246, 252, 0.025));
 }
 
 .socmedIcon{
