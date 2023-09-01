@@ -7,7 +7,7 @@
     <link href="dist/outputStyles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="z-[999] w-full flex items-center justify-center bg-transparent absolute top-0 left-0">
+    <header class="w-full flex items-center justify-center bg-transparent absolute top-0 left-0">
         <div class="w-[90%] flex items-center justify-between relative transition duration-1000 ease-linear">
             <div class="pt-3 pb-3 relative">
                 <a id="logo" href="#home" class="font-logo smCaps font-semibold text-3xl text-primary"><span class="charCase">B</span>angkit<span class="charCase">S</span>etio<span class="charCase">R</span></a>
@@ -19,11 +19,13 @@
                     <span class="hamburgerLine origin-bottom-left transition duration-500 ease-in-out"></span>
                 </button>
             </div>
-            <nav id="navbarMenu" class="absolute md:static opacity-0 md:opacity-100 -translate-y-28 md:top-28 right-0 md:block w-full py-4 transition duration-700 ease-in-out md:transition-none  text-accent bg-secondary bg-opacity-90 md:bg-transparent border md:border-none border-t-8 rounded-bl-xl rounded-br-xl border-black border-opacity-30">
-                <ul class="block w-full md:flex justify-end gap-10 text-center text-base font-semibold ">
-                    <li class="py-2"> <a href="#home"  class="anchorLink hover:text-backgroundC" >Home</a></li>
-                    <li class="py-2"> <a href="#about"  class="anchorLink hover:text-backgroundC" >About</a></li>
-                    <li class="py-2"> <a href="#portfolio"  class="anchorLink hover:text-backgroundC" >Portfolio</a></li>
+            <nav id="navbarMenu" class="absolute md:static opacity-0 md:opacity-100 -top-[168px] md:top-20 right-0 md:block w-full py-4 transition duration-700 ease-in-out md:transition-none  text-accent bg-secondary bg-opacity-90 md:bg-transparent border md:border-none border-t-8 rounded-bl-xl rounded-br-xl border-black border-opacity-30">
+                <ul  class="block w-full relative md:flex justify-end gap-10 text-center text-base font-semibold">
+                    <li class="py-2"><a href="#home"  class="anchorLink transition duration-500 ease-in-out hover:text-primary" >Home</a></li>
+                    <li class="py-2"> <a href="#about"  class="anchorLink transition duration-500 ease-in-out hover:text-primary" >About</a></li>
+                    <li class="py-2"> <a href="#portfolio"  class="anchorLink transition duration-500 ease-in-out hover:text-primary" >Portfolio</a></li>
+                    
+                    
                 </ul>
             </nav>
         </div>
@@ -32,13 +34,11 @@
     <!-- Hero Section @ -->
     <section id="home" class="pt-16">
         <div class="w-full overflow-hidden">
-            <!-- <span class="linearG w-[90%] h-3 mb-3 -ml-2 block shadow-md"></span>
-            <span class="linearG w-[15%] h-3 mb-10 -ml-2 block shadow-md"></span> -->
             <div class="flex flex-wrap justify-center">
                 
                 <div class="w-full md:w-1/3 self-center px-4">
                     
-                    <h1 class="text-base md:text-2xl font-semibold text-textC">👋 Hello Nice person, I'am <span class="text-accent block font-bold text-2xl lg:text-4xl mt-1">Bangkit Setio R</span></h1>
+                    <h1 class="text-base md:text-2xl font-semibold text-textC">👋 Hello Good People, I'am <span class="text-accent block font-bold text-2xl lg:text-4xl mt-1">Bangkit Setio R</span></h1>
 
                     <h2 class="font-medium max-w-fit m-3 px-5 py-1 rounded-full shadow-lg text-md lg:text-lg text-backgroundC bg-gradient-to-r from-accent via-secondary to-backgroundC">Junior Web Developer</h2>
                     <p class="mb-10 font-medium text-textC">Let's <strong>Growth</strong> together by <strong>GROWTH MINDSET!</strong></p>
@@ -52,8 +52,6 @@
                     <img src="src/assets/image/bangkit.png" alt="bangkit.png" class="max-w-full mx-auto" />
                 </figure>
             </div>
-            <!-- <span class="linearG w-[50%] h-3 mt-10 ml-[55%] block shadow-md"></span>
-            <span class="linearG w-[85%] h-3 mt-3 ml-[20%] block shadow-md"></span> -->
         </div>
     </section>
     <!-- Hero Section & -->
@@ -64,15 +62,14 @@
             <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 self-center px-4 mb-10">
                     <h4 class="font-bold smCaps text-2xl text-accent mb-3 ">About Me</h4>
-                    <h5 class="font-bold text-xl text-secondary mb-5">Nothing is impossible, and that's word just need a space between both im possible.</h5>
-                    <p class="font-medium text-textC">I'm twenty five years old, learn programming as faster as possible because it's have fun. However it's difficult to become professional programmer with it, I still learning until the end.</p>
+                    <h5 class="font-bold text-xl text-secondary mb-5">Nothing is impossible, impossible things can be replaced by only one distance between them im possible.</h5>
+                    <p class="font-medium text-textC">I'm twenty five years old, getting into programming as fast as I can because it's fun. No matter how hard it felt in the process of learning to become a professional programmer, I still studied until the very end.  </p>
                 </div>
                 <div class="w-full md:w-1/2 self-center px-4">
-                    <h4 class="text-xl font-semibold smCaps text-accent mb-3 md:mt-20 lg:mt-10">Let's Be Friend & Collaboration</h4>
-                    <p class="font-medium text-textC">Im so glad if you want to give me some advice or ideas about programming,
-                         and then if you gave opportunities to working together
-                          within your startup or personal projects. <br>
-                        I hope you have feedback for this portfolio website to submit to my social media:  </p>
+                    <h4 class="text-xl font-semibold smCaps text-accent mb-3 md:mt-20 lg:mt-10">Let's Connect and Work Together</h4>
+                    <p class="font-medium text-textC">Your suggestions and ideas about programming are invaluable to me.<br>
+                        I am also looking forward to the opportunity to work with you. 
+                        You can also provide feedback for this portfolio site by sending it to my social media :  </p>
                         <div class=" flex items-center justify-center gap-4 p-2 mt-4">
                             <a class="socmedIcon text-[#25D366]" href="https://wa.me/6283870952393" target="_blank">
                                 <!-- #25D366 -->
@@ -113,7 +110,58 @@
         </div>
     </section>
     <!-- About Section & -->
+    
+    <!-- Portfolio @ -->
+    <section id="portfolio" class="py-28 md:px-10 bg-gradient-to-b from-[#85f0ff] to-secondary">
+        <h1 class=" smCaps max-w-fit mx-auto px-10 py-2 font-bold text-2xl border-b-2 border-t-2 rounded-md text-[#fff] border-[#dbdbdb] shadow">Portfolio</h1>
+        <div class="flex flex-wrap justify-center items-center text-center">
+            <article class="my-8 px-[5%] md:w-1/2">
+                <h2>News Website</h2>
+                <img src="./src/assets/image/male-silhouette.svg" width="300px" alt="dummy">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati, officiis corporis asperiores magnam omnis et fugit aperiam fuga? Provident odit, sequi non ex dignissimos aliquam quos quaerat atque vero?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In mollitia ex possimus. Eligendi sint quia, suscipit ad architecto sequi autem sapiente repellat a ab. Omnis quae velit nobis ipsa corrupti?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium quam nisi distinctio commodi minima, officiis, ipsum quae aspernatur odit, repudiandae quaerat voluptas perspiciatis necessitatibus accusamus nostrum! Corrupti, eius laboriosam.
+                </p>
+                <button>
+                    <Details>
 
+                        <div class="detailedProject">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate, inventore beatae ducimus aliquam laboriosam enim minus in numquam, culpa unde tenetur quia fugit quae quasi molestias velit omnis doloremque.
+                        </div>
+                    </Details>
+                </button>
+            </article>
+            <article class="my-8 px-[5%] md:w-1/2">
+                <h2>News Website</h2>
+                <img src="./src/assets/image/male-silhouette.svg" width="300px" alt="dummy">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto obcaecati, officiis corporis asperiores magnam
+                    omnis et fugit aperiam fuga? Provident odit, sequi non ex dignissimos aliquam quos quaerat atque vero?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In mollitia ex possimus. Eligendi sint quia, suscipit
+                    ad architecto sequi autem sapiente repellat a ab. Omnis quae velit nobis ipsa corrupti?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium quam nisi distinctio commodi minima,
+                    officiis, ipsum quae aspernatur odit, repudiandae quaerat voluptas perspiciatis necessitatibus accusamus
+                    nostrum! Corrupti, eius laboriosam.
+                </p>
+                <button>
+                    <Details>
+            
+                        <div class="detailedProject">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate, inventore beatae ducimus
+                            aliquam laboriosam enim minus in numquam, culpa unde tenetur quia fugit quae quasi molestias velit omnis
+                            doloremque.
+                        </div>
+                    </Details>
+                </button>
+            </article>
+        </div>
+    </section>
+    <!-- Portfolio & -->
+
+    <!-- Footer @ -->
+    <footer class="py-8 bg-gradient-to-b from-secondary to-blue-950 text-center text-base shadow-sm">
+        <p class="text-[#fafafa]">&#169; 2023 By Bangkit Setio R, Allrights Reserved.</p>
+    </footer>
+    <!-- Footer & -->
     <script src="src/index.js" >
 
     </script>
